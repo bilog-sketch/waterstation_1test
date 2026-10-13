@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+  <testsuites>
+    <testsuite name="Unit"><file>tests/LogicTest.php</file></testsuite>
+    <testsuite name="Integration"><file>tests/StockDeductionTest.php</file></testsuite>
+  </testsuites>
+</phpunit>

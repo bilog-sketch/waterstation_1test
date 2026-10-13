@@ -1,0 +1,17 @@
+{
+  "name": "local/water-station-rms",
+  "description": "Water Station Record Management System",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-mbstring": "*",
+    "ext-fileinfo": "*",
+    "dompdf/dompdf": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6 || ^10.5"
+  },
+  "scripts": { "test": "phpunit" }
+}
